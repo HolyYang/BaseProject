@@ -9,7 +9,6 @@
 /* Begin PBXBuildFile section */
 		3B1D51BC1E15FF1700BA4AA1 /* BaseProjectTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 3B1D51BB1E15FF1700BA4AA1 /* BaseProjectTests.m */; };
 		3B1D51C71E15FF1700BA4AA1 /* BaseProjectUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 3B1D51C61E15FF1700BA4AA1 /* BaseProjectUITests.m */; };
-		3B1D51E21E15FFCD00BA4AA1 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 3B1D51D71E15FFCD00BA4AA1 /* AppDelegate.m */; };
 		3B1D51E31E15FFCD00BA4AA1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3B1D51D81E15FFCD00BA4AA1 /* Assets.xcassets */; };
 		3B1D51E41E15FFCD00BA4AA1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3B1D51D91E15FFCD00BA4AA1 /* LaunchScreen.storyboard */; };
 		3B1D51E61E15FFCD00BA4AA1 /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 3B1D51DD1E15FFCD00BA4AA1 /* Info.plist */; };
@@ -25,6 +24,8 @@
 		3B1D52031E16085A00BA4AA1 /* me_01@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 3B1D51FB1E16085A00BA4AA1 /* me_01@3x.png */; };
 		3B1D52041E16085A00BA4AA1 /* me_02@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 3B1D51FC1E16085A00BA4AA1 /* me_02@2x.png */; };
 		3B1D52051E16085A00BA4AA1 /* me_02@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 3B1D51FD1E16085A00BA4AA1 /* me_02@3x.png */; };
+		3B1D520A1E1629B800BA4AA1 /* ApiHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = 3B1D52091E1629B800BA4AA1 /* ApiHelper.m */; };
+		3B1D520E1E16312300BA4AA1 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 3B1D520D1E16312300BA4AA1 /* AppDelegate.m */; };
 		41E001429D68746B11978E68 /* libPods-BaseProject.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 6E4DB6F3560C21C06A4CB049 /* libPods-BaseProject.a */; };
 /* End PBXBuildFile section */
 
@@ -53,8 +54,6 @@
 		3B1D51C21E15FF1700BA4AA1 /* BaseProjectUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BaseProjectUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		3B1D51C61E15FF1700BA4AA1 /* BaseProjectUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BaseProjectUITests.m; sourceTree = "<group>"; };
 		3B1D51C81E15FF1700BA4AA1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		3B1D51D61E15FFCD00BA4AA1 /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AppDelegate.h; path = ../Others/AppDelegate.h; sourceTree = "<group>"; };
-		3B1D51D71E15FFCD00BA4AA1 /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = AppDelegate.m; path = ../Others/AppDelegate.m; sourceTree = "<group>"; };
 		3B1D51D81E15FFCD00BA4AA1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		3B1D51DA1E15FFCD00BA4AA1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		3B1D51DD1E15FFCD00BA4AA1 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -73,6 +72,11 @@
 		3B1D51FB1E16085A00BA4AA1 /* me_01@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "me_01@3x.png"; sourceTree = "<group>"; };
 		3B1D51FC1E16085A00BA4AA1 /* me_02@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "me_02@2x.png"; sourceTree = "<group>"; };
 		3B1D51FD1E16085A00BA4AA1 /* me_02@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "me_02@3x.png"; sourceTree = "<group>"; };
+		3B1D52081E1629B800BA4AA1 /* ApiHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ApiHelper.h; sourceTree = "<group>"; };
+		3B1D52091E1629B800BA4AA1 /* ApiHelper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ApiHelper.m; sourceTree = "<group>"; };
+		3B1D520B1E1630F200BA4AA1 /* PrefixHeader.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
+		3B1D520C1E16312300BA4AA1 /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		3B1D520D1E16312300BA4AA1 /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		6E4DB6F3560C21C06A4CB049 /* libPods-BaseProject.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-BaseProject.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		94AC98BC562C9A573C562477 /* Pods-BaseProject.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BaseProject.debug.xcconfig"; path = "Pods/Target Support Files/Pods-BaseProject/Pods-BaseProject.debug.xcconfig"; sourceTree = "<group>"; };
 		F5DEE057BBA78698AF5D5504 /* Pods-BaseProject.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BaseProject.release.xcconfig"; path = "Pods/Target Support Files/Pods-BaseProject/Pods-BaseProject.release.xcconfig"; sourceTree = "<group>"; };
@@ -129,6 +133,7 @@
 		3B1D51A01E15FF1600BA4AA1 /* BaseProject */ = {
 			isa = PBXGroup;
 			children = (
+				3B1D52061E16297400BA4AA1 /* Expand */,
 				3B1D51E91E1603F600BA4AA1 /* BaseView */,
 				3B1D51DF1E15FFCD00BA4AA1 /* Project */,
 				3B1D51D51E15FFCD00BA4AA1 /* Others */,
@@ -177,6 +182,7 @@
 				3B1D51D91E15FFCD00BA4AA1 /* LaunchScreen.storyboard */,
 				3B1D51DD1E15FFCD00BA4AA1 /* Info.plist */,
 				3B1D51DE1E15FFCD00BA4AA1 /* main.m */,
+				3B1D520B1E1630F200BA4AA1 /* PrefixHeader.pch */,
 			);
 			path = Others;
 			sourceTree = "<group>";
@@ -193,8 +199,8 @@
 		3B1D51E91E1603F600BA4AA1 /* BaseView */ = {
 			isa = PBXGroup;
 			children = (
-				3B1D51D61E15FFCD00BA4AA1 /* AppDelegate.h */,
-				3B1D51D71E15FFCD00BA4AA1 /* AppDelegate.m */,
+				3B1D520C1E16312300BA4AA1 /* AppDelegate.h */,
+				3B1D520D1E16312300BA4AA1 /* AppDelegate.m */,
 				3B1D51EA1E16048E00BA4AA1 /* RootViewController.h */,
 				3B1D51EB1E16048E00BA4AA1 /* RootViewController.m */,
 			);
@@ -217,6 +223,23 @@
 				3B1D51F41E16058F00BA4AA1 /* MeViewController.m */,
 			);
 			path = Me;
+			sourceTree = "<group>";
+		};
+		3B1D52061E16297400BA4AA1 /* Expand */ = {
+			isa = PBXGroup;
+			children = (
+				3B1D52071E16299300BA4AA1 /* network */,
+			);
+			path = Expand;
+			sourceTree = "<group>";
+		};
+		3B1D52071E16299300BA4AA1 /* network */ = {
+			isa = PBXGroup;
+			children = (
+				3B1D52081E1629B800BA4AA1 /* ApiHelper.h */,
+				3B1D52091E1629B800BA4AA1 /* ApiHelper.m */,
+			);
+			path = network;
 			sourceTree = "<group>";
 		};
 		424F1F53D9948D67E76ECE3A /* Pods */ = {
@@ -431,11 +454,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3B1D520A1E1629B800BA4AA1 /* ApiHelper.m in Sources */,
 				3B1D51F51E16058F00BA4AA1 /* MeViewController.m in Sources */,
+				3B1D520E1E16312300BA4AA1 /* AppDelegate.m in Sources */,
 				3B1D51E71E15FFCD00BA4AA1 /* main.m in Sources */,
 				3B1D51EC1E16048E00BA4AA1 /* RootViewController.m in Sources */,
 				3B1D51F11E16056400BA4AA1 /* MainViewController.m in Sources */,
-				3B1D51E21E15FFCD00BA4AA1 /* AppDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -576,6 +600,8 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = 7J9UJGR3XP;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/BaseProject/Others/PrefixHeader.pch";
 				INFOPLIST_FILE = "$(SRCROOT)/BaseProject/Others/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.yangyang.BaseProject;
@@ -589,6 +615,8 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = 7J9UJGR3XP;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/BaseProject/Others/PrefixHeader.pch";
 				INFOPLIST_FILE = "$(SRCROOT)/BaseProject/Others/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.yangyang.BaseProject;

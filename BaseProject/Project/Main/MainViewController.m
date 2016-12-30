@@ -17,6 +17,14 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     self.title = @"首页";
+    [[ApiHelper shareInstance] requestGetWithApi:@"http://apicloud.mob.com/v1/weather/type?key=15dde598bd9d1" andParams:nil andCallback:^(NSURLSessionDataTask *operation, id requestObj, NSError *error) {
+
+    }];
+//    [[ApiHelper shareInstance] downloadWithUrl:@"http://120.25.226.186:32812/resources/videos/minion_01.mp4" andProgress:^(NSProgress *progress) {
+//        NSLog(@"页面的下载值%.2f",progress.fractionCompleted);
+//    } andFinish:^(NSString *str) {
+//        NSLog(@"%@",str);
+//    }];
 }
 
 - (void)didReceiveMemoryWarning {
